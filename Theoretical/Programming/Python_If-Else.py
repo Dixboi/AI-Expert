@@ -1,5 +1,6 @@
 '''
-Source: [HackerRank](https://www.hackerrank.com/challenges/py-if-else/problem?isFullScreen=true)
+Source:
+https://www.hackerrank.com/challenges/py-if-else/problem?isFullScreen=true
 
 Task:
 Given an integer, n, perform the following conditional actions:
@@ -8,7 +9,7 @@ Given an integer, n, perform the following conditional actions:
 - If n is even and in the inclusive range of  to , print `Weird`
 - If n is even and greater than , print `Not Weird`
 
-Input Format
+Input Format:
 A single line containing a positive integer, .
 '''
 
