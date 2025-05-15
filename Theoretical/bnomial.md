@@ -39,3 +39,27 @@ Adding padding to the image is a way to avoid the reduction of the size. In this
 Finally, we have a stride of 2. This means the sliding window will move by two rows/columns every time, reducing each output dimension's size by half.
 
 Therefore, the final output size of the convolutional layer will be 29×29.
+
+## Familiar loss
+
+**Situation**
+
+Adriana is a Machine Learning enthusiast.
+
+She recently learned about "binary cross-entropy" during a colleague's discussion. Although familiar with various Machine Learning techniques, binary cross-entropy was new to her.
+
+She opened a book and started reading about this loss function. Unfortunately, there was a question she couldn't answer.
+
+Which neural network problems should use binary cross-entropy as their loss function?
+
+**Explanation**
+
+Binary cross-entropy is the loss function we use when training binary classifiers. When working on a binary classification task, we categorize every sample into two classes. For example, given images of dogs or cats, a binary classifier will decide whether a picture shows a dog or a cat.
+
+But binary classifiers aren't the only time we use binary cross-entropy.
+
+Binary cross-entropy is also the loss function we use in multi-label classification problems. These are problems where we categorize every sample into one or more classes. For example, organizing movies based on the type of content, for instance, violence, adult language, smoking, or sex, where each film could belong to one or more categories.
+
+In multi-label classification models, the output layer returns values independently. It's helpful to think of a model that outputs ten possible classes as a combination of ten different binary classifiers, and thus binary cross-entropy helps.
+
+Neither multi-class classification nor regression problems use binary-cross entropy.
