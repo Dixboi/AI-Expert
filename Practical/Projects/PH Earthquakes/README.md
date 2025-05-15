@@ -1,1 +1,21 @@
+# Philippine Earthquakes
+A Python notebook that web scrapes a Philippine website to extract data about earthquakes.
+
+## Purpose
+I want to gather earthquake data from the Philippines, however the data displayed on PHIVOLCS are limited only by the recent month. So I want a consolidated data, not just from the displayed latest data.
+
+The data can be used for the following:
+1. Analysis of the Philippines' most hitted regions
+2. Correlation with casualties alongside with other disasters
+
+## Focus
+### Topics
+**Webscraping**
+### Subtopics
+**regex | data preprocessing | data extraction**
+### Tools
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
+### Extension Tools
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) <br>
+**requests | BeautifulSoup**
 
