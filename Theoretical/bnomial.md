@@ -63,3 +63,33 @@ Binary cross-entropy is also the loss function we use in multi-label classificat
 In multi-label classification models, the output layer returns values independently. It's helpful to think of a model that outputs ten possible classes as a combination of ten different binary classifiers, and thus binary cross-entropy helps.
 
 Neither multi-class classification nor regression problems use binary-cross entropy.
+
+## Sample arrays
+
+**Situation**
+
+Margot is a data analyst working at a financial technology company. Her team is developing a model to predict stock prices based on various features, such as company performance and market trends.
+
+Margot is using the NumPy library to manipulate the data, and she wants to filter her dataset to return every sample corresponding to class 0. Every feature of her data is stored in a NumPy array `X`, and the target values are in a NumPy array `y`.
+
+Margot can use `X[y == 0, :]` or `X[y == 0]` to filter the data and return every sample that belongs to class 0. To understand how this expression works, we can break it down:
+
+We have `y == 0`, which will return `True` for every sample that belongs to class 0, and `False` otherwise. We use this as a selection mask on the set `X`, which will return every row that belongs to class 0.
+
+To return every feature from `X`, we can use `:`. When slicing arrays, we can use `:` to specify a range of values along a particular axis. In this case, using `:` alone will return every column of the array. In this case, we can accomplish the same by omitting `:`.
+
+The following code snippet illustrates how these two options work:
+```
+import numpy as np
+
+X = np.array([[2, 1], [4, 3], [6, 5], [8, 7]])
+y = np.array([0, 1, 1, 0])
+print(X[y == 0, :])
+print(X[y == 0])
+```
+
+You should get the following result:
+```
+[[2 1] [8 7]]
+[[2 1] [8 7]]
+```
