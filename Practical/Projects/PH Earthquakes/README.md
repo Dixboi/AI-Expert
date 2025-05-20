@@ -8,15 +8,15 @@ The data can be used for the following:
 1. Analysis of the Philippines' most hitted regions
 2. Correlation with casualties alongside with other disasters
 
+**Latest Run/Update**: May 15, 2025
+
 ## Focus
 ### Topics
 **Webscraping**
-### Subtopics
-**regex | data preprocessing | data extraction | Extract, Transform, Load (ETL)**
-### Tools
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
-### Extension Tools
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) <br>
-**requests | BeautifulSoup**
 
-**Latest Run/Update**: May 15, 2025
+**Subtopics**: **regex | data preprocessing | data extraction | Extract, Transform, Load (ETL)**
+
+### Tools
+**Python notebook**
+
+**Extension Tools**: **requests | BeautifulSoup**
