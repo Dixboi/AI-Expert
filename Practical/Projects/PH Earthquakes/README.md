@@ -11,12 +11,17 @@ The data can be used for the following:
 **Latest Run/Update**: May 15, 2025
 
 ## Focus
+**Data Engineering**
+
 ### Topics
-**Webscraping**
+- **Webscraping (Main Focus)**
+- **regex**
+- **data preprocessing**
+- **data extraction**
+- **Extract, Transform, Load (ETL)**
 
-**Subtopics**: **regex | data preprocessing | data extraction | Extract, Transform, Load (ETL)**
+### Tools Used
 
-### Tools
-**Python notebook**
-
-**Extension Tools**: **requests | BeautifulSoup**
+- **Pandas**
+- **BeautifulSoup**
+- **Requests**
