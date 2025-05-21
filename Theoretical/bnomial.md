@@ -161,3 +161,33 @@ To ensure students don't overfit to their training exercises, you don't want to 
 We want to do the same when training machine learning models. If we only evaluate our work in the same data we use to train the model, we might overfit and have a model that isn't capable of generalizing to different data. In other words, the model may "memorize" the training data and learn to return excellent predictions when tested.
 
 If we split the dataset and leave a portion to evaluate how much the model learned, we will ensure that overfit won't happen. Therefore, we can accurately assess the model's performance and avoid overfitting.
+
+## Animal characteristics
+
+**Situation**
+
+Kaylani is the tech lead of a project that aims to classify pictures of animals based on 10 different characteristics. Each animal can have one or more of these features, so the system should recognize and tag the animal photos appropriately.
+
+The team used a convolutional neural network to build this system. The only question that remains is the best approach for designing the network.
+
+Which would be the best approach for Kaylani and her team to design the network for classifying the photos?
+
+• Kaylani should use a sigmoid activation function in the output layer. The loss function should be binary cross-entropy.
+
+• Kaylani should use a sigmoid activation function in the output layer. The loss function should be categorical cross-entropy.
+
+• Kaylani should use a softmax activation function in the output layer. The loss function should be binary cross-entropy.
+
+• Kaylani should use a softmax activation function in the output layer. The loss function should be categorical cross-entropy.
+
+**Explanation**
+
+The team is trying to build a multi-label classification model. Every animal will be classified with one or more of the 10 characteristics in multi-label classification. This differs from multi-class classification, where every animal will only be classified into one category.
+
+When building multi-label classification models, we need an output layer where every class is independent. Remember that we can have more than one active class for each input. The softmax activation function doesn't work because it uses every score to output the probabilities of each class.
+
+Softmax is the correct output for multi-class classification. Sigmoid is the correct output for multi-label classification problems. The sigmoid function converts output scores to a value between 0 and 1, independently of all the other scores.
+
+Multi-label classification problems borrow the same principles from binary classification problems. The difference is that we end up with multiple sigmoid outputs instead of one. In our example problem, we combine three different binary classifiers. This is why we should use a binary cross-entropy as the loss function.
+
+In summary, multi-class classification models should use a softmax output with the categorical cross-entropy loss function. Multi-label classification models should use a sigmoid output and the binary cross-entropy loss function.
