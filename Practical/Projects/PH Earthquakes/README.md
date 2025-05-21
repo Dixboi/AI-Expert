@@ -21,7 +21,7 @@ The data can be used for the following:
 - **Extract, Transform, Load (ETL)**
 
 ### Tools Used
-
+- **Python Notebook**
 - **Pandas**
 - **BeautifulSoup**
 - **Requests**
