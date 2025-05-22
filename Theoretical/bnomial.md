@@ -191,3 +191,35 @@ Softmax is the correct output for multi-class classification. Sigmoid is the cor
 Multi-label classification problems borrow the same principles from binary classification problems. The difference is that we end up with multiple sigmoid outputs instead of one. In our example problem, we combine three different binary classifiers. This is why we should use a binary cross-entropy as the loss function.
 
 In summary, multi-class classification models should use a softmax output with the categorical cross-entropy loss function. Multi-label classification models should use a sigmoid output and the binary cross-entropy loss function.
+
+## Marine biologist
+
+**Situation**
+
+Aniyah is a marine biologist using machine learning to study the migratory patterns of various sea creatures. She needs to determine how close different species are to one another during their migrations.
+
+Aniyah is considering using clustering algorithms like K-Means. These algorithms require measuring the similarity between observations in her dataset.
+
+Euclidean distance is one of the most popular distance metrics for this task.
+
+From the following list, select every correct statement about the Euclidean distance.
+
+• The Euclidean distance between two points does not depend on which of the two points is the start and which is the destination. In other words, the distance between p and q is the same as between q and p.
+
+• The Euclidean distance is a way to compute the distance between two points in two-dimensional spaces. The Euclidean distance doesn't work in multidimensional spaces.
+
+• The Euclidean distance between two distinct points is always positive.
+
+• Traveling from a point p to a point q via a point r cannot be any shorter than traveling directly from p to q.
+
+**Explanation**
+
+In one or more dimensions, we can use the Euclidean distance. For example, in a line, the distance between two points is the numerical difference between their coordinates. In a plane, the distance is the Pythagorean distance.
+
+But can we use it in multidimensional spaces?
+
+The answer is yes; the Euclidean distance works in multidimensional spaces. Intuitively, this should make sense because we can use it as the metric to compute the distance between multi-feature observations in our dataset.
+
+The distance from a point p to another point q is the same regardless of whether we start from p or q. This distance is always a positive value as long as p and q are different points. If p and q are the same point, the distance is 0.
+
+In the Euclidean plane, the distance between any two distant points is the length of the line segment joining them. So this segment joining points p and q can't be any shorter, regardless of whether we get from p to q via a third point r.
