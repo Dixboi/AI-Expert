@@ -223,3 +223,33 @@ The answer is yes; the Euclidean distance works in multidimensional spaces. Intu
 The distance from a point p to another point q is the same regardless of whether we start from p or q. This distance is always a positive value as long as p and q are different points. If p and q are the same point, the distance is 0.
 
 In the Euclidean plane, the distance between any two distant points is the length of the line segment joining them. So this segment joining points p and q can't be any shorter, regardless of whether we get from p to q via a third point r.
+
+## Piece replacement
+
+**Situation**
+
+Lucille is a data scientist writing an article about a model developed to predict if a piece of equipment has to be replaced.
+
+The model takes in the piece's characteristics and outputs a prediction based on the relationships between the input features and the target variable.
+
+Lucille wants to explain how the coefficients, the parameters learned by the model during training, influence the final prediction.
+
+Which of the following options represents the best way for Lucille to describe the role of the coefficients in the model?
+
+• A positive coefficient suggests that the feature does not affect the prediction.
+
+• A negative coefficient suggests that the feature does not affect the prediction.
+
+• A positive coefficient suggests that the feature has a higher probability of positively affecting the prediction.
+
+• A positive coefficient suggests that the feature has a higher probability of negatively affecting the prediction.
+
+**Explanation**
+
+The coefficients in the context of a model are the parameters learned by the model during training. They determine the relationship between the input features and the output predictions.
+
+In this example, the coefficients are used to predict whether the piece has to be replaced. The coefficients weigh the input features and determine the final prediction.
+
+The best way to describe the role of the coefficients is by saying that a positive coefficient indicates that the variable is more likely to influence the outcome positively. This means that the variable has a positive relationship with the target variable and increases the probability of the target being positive.
+
+On the other hand, a negative coefficient indicates that the variable has a higher likelihood of negatively influencing the outcome. This means that the variable has a negative relationship with the target variable and decreases the probability of the target being positive.
