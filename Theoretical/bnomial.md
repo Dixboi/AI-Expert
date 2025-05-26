@@ -253,3 +253,29 @@ In this example, the coefficients are used to predict whether the piece has to b
 The best way to describe the role of the coefficients is by saying that a positive coefficient indicates that the variable is more likely to influence the outcome positively. This means that the variable has a positive relationship with the target variable and increases the probability of the target being positive.
 
 On the other hand, a negative coefficient indicates that the variable has a higher likelihood of negatively influencing the outcome. This means that the variable has a negative relationship with the target variable and decreases the probability of the target being positive.
+
+## Specific outcomes
+
+**Situation**
+
+Tessa is a data scientist working in the field of Computer Vision. She has been assigned a project that involves building a model to predict specific outcomes based on visual data.
+
+Before training her model, Tessa divides her dataset into a training set and a test set. She understands that shuffling the dataset before dividing it is crucial in ensuring accurate results.
+
+What is the primary reason for shuffling the dataset before dividing it into a training and test set?
+
+• To make sure the training set contains more data than the test set.
+
+• To make sure the features in the training and test sets are the same.
+
+• To make sure the class labels are evenly split between the training and test sets.
+
+• To make sure the training set contains the same number of samples as the test set.
+
+**Explanation**
+
+The main reason for shuffling the dataset before dividing it into a training and test set is to ensure that the class labels are evenly distributed between the two sets.
+
+This is important because if the class labels are not evenly distributed, one of the sets might not contain data that belongs to some of the labels. For example, assuming our dataset is sorted by the class label, we might assign every sample from one class to the training set and every sample from another to a test set.
+
+Shuffling the dataset helps to mitigate this issue by randomly reordering the data, which helps to ensure that the training and test sets are representative samples of the entire data population.
