@@ -2,6 +2,7 @@
 Here lies all of my learnings related to becoming an official Artificial Intelligence Expert.
 
 I wanted to focus on the following:
+- **Automation**: helps to make sure to lessen repititive tasks and provide an easier workflow
 - **Data Analysis**: without understanding data, it's hard to build AI models and run them
 - **Data Engineering**: ensures that AI systems or softwares will get the data needed
 - **Data Science**: helps in experimentation and understading AI models to its core
