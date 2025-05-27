@@ -279,3 +279,31 @@ The main reason for shuffling the dataset before dividing it into a training and
 This is important because if the class labels are not evenly distributed, one of the sets might not contain data that belongs to some of the labels. For example, assuming our dataset is sorted by the class label, we might assign every sample from one class to the training set and every sample from another to a test set.
 
 Shuffling the dataset helps to mitigate this issue by randomly reordering the data, which helps to ensure that the training and test sets are representative samples of the entire data population.
+
+## Main technique
+
+**Situation**
+
+Clara is a data scientist working for a weather forecasting company.
+
+The company wants to improve its temperature forecasting capabilities, so Clara is tasked with building a model that can accurately predict the temperature of a city based on meteorological data such as humidity, pressure, wind speed, and previous temperature records.
+
+Fortunately, she has access to labeled meteorological data and temperatures dataset, so she should be OK with building a model.
+
+Which of the following is the main technique Clara should use to solve this task?
+
+• Clustering
+
+• Regression
+
+• Classification
+
+• Dimensionality Reduction
+
+**Explanation**
+
+The primary technique that Clara should use to solve this problem is regression.
+
+Regression is a supervised learning technique that predicts a continuous value based on input features. In this example, Clara wants to predict the temperature of a city based on meteorological data such as humidity, pressure, wind speed, and previous temperature records. The temperature is a continuous value.
+
+To do this, she will use a dataset of temperature records, with meteorological data and their corresponding temperature values. She can train a model to make predictions on new, unseen data.
