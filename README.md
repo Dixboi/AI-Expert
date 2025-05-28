@@ -31,5 +31,11 @@ Preparation, collection, and notes for all of the certifications that I'm trying
 ### 💪 Practical
 Application of all my learnings like big or small projects
 
+#### Competition
+1. [2023 Kaggle AI Report](https://github.com/Dixboi/AI-Expert/tree/main/Practical/Projects/2023%20Kaggle%20AI%20Report)
+
+#### Personal Projects
+1. [Philippine Earthquakes](https://github.com/Dixboi/AI-Expert/tree/main/Practical/Projects/PH%20Earthquakes)
+
 ### 🧠 Theoretical
 Collection of all the resources that help me to understand my target fields
