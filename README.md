@@ -28,6 +28,9 @@ This repo is divided into three parts:
 ### 🏅 Certification
 Preparation, collection, and notes for all of the certifications that I'm trying and I've taken
 
+#### ABBYY
+1. [ABBYY FlexiCapture 12 Specialist](https://github.com/Dixboi/AI-Expert/blob/main/Certification/ABBYY/ABBYY%20-%20ABBYY%20FlexiCapture%2012%20Specialist.pdf)
+
 #### DataCamp
 1. [AI Fundamentals](https://github.com/Dixboi/AI-Expert/blob/main/Certification/DataCamp/Career/DataCamp%20-%20AI%20Fundamentals.pdf)
 2. [Data Engineer Associate](https://github.com/Dixboi/AI-Expert/blob/main/Certification/DataCamp/Career/DataCamp%20-%20Data%20Engineer%20Associate.pdf)
