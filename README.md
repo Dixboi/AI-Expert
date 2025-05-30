@@ -31,6 +31,9 @@ Preparation, collection, and notes for all of the certifications that I'm trying
 #### ABBYY
 1. [ABBYY FlexiCapture 12 Specialist](https://github.com/Dixboi/AI-Expert/blob/main/Certification/ABBYY/ABBYY%20-%20ABBYY%20FlexiCapture%2012%20Specialist.pdf)
 
+#### Blue Prism
+1. [Blue Prism Foundation Training](https://github.com/Dixboi/AI-Expert/blob/main/Certification/Blue%20Prism/Blue%20Prism%20-%20Foundation%20Training.pdf)
+
 #### DataCamp
 1. [AI Fundamentals](https://github.com/Dixboi/AI-Expert/blob/main/Certification/DataCamp/Career/DataCamp%20-%20AI%20Fundamentals.pdf)
 2. [Data Engineer Associate](https://github.com/Dixboi/AI-Expert/blob/main/Certification/DataCamp/Career/DataCamp%20-%20Data%20Engineer%20Associate.pdf)
