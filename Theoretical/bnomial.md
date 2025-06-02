@@ -403,3 +403,44 @@ Here is what Jason Brownlee has to say about variance: "Variance is the amount t
 In other words, variance refers to how much the answers given by the model will change if we use different training data. The model has high variance if the answers differ significantly when using different portions of our training dataset.
 
 Generally, non-linear machine learning algorithms with a lot of flexibility are high variance. For example, Decision Trees and k-Nearest Neighbors are high-variance models. Linear models, on the other hand, are usually low-variance.
+
+## NOR logic gate
+
+**Situation**
+
+We want to use a Perceptron to represent the NOR logic gate. As a reminder, here is how the NOR gate works:
+
+0 nor 0 = 1
+0 nor 1 = 0
+1 nor 0 = 0
+1 nor 1 = 0
+Our Perceptron will have two inputs, two weights, and a bias parameter.
+
+Which of the following parameters will make our Perceptron act as a NOR gate?
+
+• w1 = -1.0, w2 = -1.0, b = 1.0
+
+• w1 = 0.5, w2 = 0.5, b = -0.1
+
+• w1 = -2.0, w2 = -1.0, b = 0.8
+
+• You need more than one Perceptron to represent the NOR gate.
+
+**Explanation**
+
+We can represent a NOR gate using a single Perceptron. Here is a simple implementation with two input values, x1 and x2:
+```
+def perceptron(x1, x2, w1, w2, b):
+    return int((x1*w1 + x2*w2 + b) > 0)
+```
+Using this function, we can try the different configurations suggested in this question. Here is an example of running the Perceptron for the NOR gate using a set of parameters:
+```
+w1 = -1.0
+w2 = -1.0
+b = 1.0
+assert perceptron(0, 0, w1, w2, b) == 1
+assert perceptron(0, 1, w1, w2, b) == 0
+assert perceptron(1, 0, w1, w2, b) == 0
+assert perceptron(1, 1, w1, w2, b) == 0
+```
+Notice how each assert validates a specific pair of inputs. If there are no errors, then we can conclude the parameters work.
