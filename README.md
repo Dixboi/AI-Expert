@@ -20,7 +20,7 @@ Helps in experimentation and understading AI models to its core
 Applying AI models in the right situation
 
 ### ⚖️ Data and AI Ethics
-Ensures that the data and AI system is being used in a proper manner
+Ensures to be literate in the field of Data and AI, and to know how to manage them properly.
 
 ## CONTENTS
 This repo is divided into three parts:
