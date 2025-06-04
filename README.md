@@ -22,6 +22,9 @@ Applying AI models in the right situation
 ### ⚖️ Data and AI Ethics
 Ensures to be literate in the field of Data and AI, and to know how to manage them properly.
 
+### 🌏 Miscellaneous
+Contains other learnings that can be related to AI such as cloud, reasearch papers, and DevOps
+
 ## CONTENTS
 This repo is divided into three parts:
 
