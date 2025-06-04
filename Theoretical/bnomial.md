@@ -470,3 +470,34 @@ Gradient Descent is a popular optimization algorithm in machine learning. It min
 Using a single sample is called Stochastic Gradient Descent (SGD). Using all the data at once is called Batch Gradient Descent. Using a batch of data—more than one sample but fewer than the entire dataset—is called Mini-Batch Gradient Descent.
 
 Mini-Batch Gradient Descent strikes a balance between computation speed and update accuracy. It leverages the benefits of both Stochastic Gradient Descent and Batch Gradient Descent by processing multiple samples in each iteration. This approach allows for more accurate updates than SGD while being computationally more efficient than Batch Gradient Descent, which requires loading the entire dataset into memory.
+
+
+## Straightforward and fast
+
+**Situation**
+
+While working on a data analysis project, Blair used the K-Means algorithm. This was her first time working with a clustering algorithm.
+
+K-Means was straightforward and fast. Blair had all the code written in a few hours, but something was missing.
+
+The documentation mentioned the "elbow method," but Blair wasn't sure how it would help her.
+
+Which of the following statements is true about the elbow method?
+
+• The elbow method determines the optimal number of clusters.
+
+• The elbow method detects outliers present in a dataset.
+
+• The elbow method pinpoints the biases within a dataset.
+
+• The elbow method determines which features best explain observed patterns in a dataset.
+
+**Explanation**
+
+The elbow method is a way to determine the optimal number of clusters.
+
+When running K-means, you can run the algorithm with a range of values of k, and for each value, calculate the sum of squared errors. Then, you can plot a line chart of these errors for each value of k.
+
+If the line chart looks like an arm, then the "elbow" on the arm is the best number of clusters (k) that you should use.
+
+The elbow method is a way to choose the point where diminishing returns are no longer worth the cost. It's a very popular technique when using clustering algorithms.
