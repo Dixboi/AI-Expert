@@ -501,3 +501,32 @@ When running K-means, you can run the algorithm with a range of values of k, and
 If the line chart looks like an arm, then the "elbow" on the arm is the best number of clusters (k) that you should use.
 
 The elbow method is a way to choose the point where diminishing returns are no longer worth the cost. It's a very popular technique when using clustering algorithms.
+
+## Platform recommendations
+
+**Situations**
+
+Kendall is a data scientist at a tech company building a recommendation system for its e-commerce platform.
+
+Before looking into more complex models, she wants to establish a good baseline. Kendall is considering trying two different models: a simple neural network and a linear regression model.
+
+Which of the following statements are true for both Kendall's neural network and linear regression model?
+
+• Both models require numeric inputs between 0 and 1, so Kendall must standardize the values.
+
+• Both models need numeric input features, so Kendall must convert non-numeric features.
+
+• The result from both models is the linear sum of weighted inputs.
+
+• The result from both models is a probability vector.
+
+**Explanation**
+
+Although it is generally true that both models would perform better with scaled or standardized input features, neither model explicitly requires features to be within the range of 0 to 1.
+
+Both neural networks and linear regression models require input features to be numeric. They cannot handle categorical features directly, so Kendall must transform non-numeric features before using them in either model.
+
+The output of a linear regression model is a single numerical value, not a vector of probabilities. Neural networks do not necessarily have to produce such output either.
+
+Lastly, while linear regression and neural networks involve a linear sum of weighted inputs, neural networks introduce non-linearities through activation functions. This key difference makes neural networks more powerful than linear regression.
+
