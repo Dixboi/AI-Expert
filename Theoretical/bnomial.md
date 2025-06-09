@@ -567,3 +567,57 @@ Remember that while a single Decision Tree is prone to overfitting, using an ens
 Many people relate Decision Trees with classification tasks, but they are also valuable for solving regression tasks. A classification task is when the predicted outcome is a discrete class, while the result of a regression task is a Real number. This flexibility makes Decision Trees very useful.
 
 Finally, we discussed above how Decision Trees are prone to overfit if we aren't careful with their depth. This is just one of the hyperparameters that we can tune. Like with most techniques, Decision Trees require experimentation and tuning to improve the quality of their results.
+
+## Studying errors
+
+**Situation**
+
+Collins is new to machine learning and has been studying tensors, an important data structure in the field.
+
+As she dives deeper, she comes across various attributes related to tensors and wants to determine which ones accurately describe a tensor.
+
+Which of the following are valid attributes that represent a tensor?
+
+• Rank: This attribute refers to the number of dimensions, or axes, in the tensor.
+
+• Interaction: This attribute describes the connections between the tensor's axes.
+
+• Shape: This attribute represents the number of elements in each dimension.
+
+• Cardinality: This attribute represents the numerical relationship between the tensor axes.
+
+**Explanation**
+
+Three primary attributes define a tensor:
+
+1. Its rank, or the number of axes.
+2. Its shape or the number of dimensions.
+3. Its data type or the type of data contained in it.
+
+The rank of a tensor refers to the tensor's number of axes.
+
+Examples:
+
+- Rank of a matrix is 2.
+- Rank of a vector is 1.
+- Rank of a scalar is 0.
+
+The shape of a tensor describes the number of elements along each dimension.
+
+Examples:
+```
+() — scalar
+(2,) — vector
+(3, 2) — matrix
+(3, 2, 5) — 3D tensor
+```
+
+The data type of a tensor refers to the data type it stores:
+
+Examples:
+```
+float32
+float64
+uint8
+int64
+```
