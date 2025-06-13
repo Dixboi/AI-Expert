@@ -681,3 +681,35 @@ The third choice suggests using a supervised learning method to infer the labels
 Lastly, semi-supervised learning could be used if Milani already had a small portion of labeled data. The method would then generate labels for the remaining data. However, there is no indication that Milani has any labeled data, making semi-supervised learning an unsuitable option.
 
 Other techniques to generate labels include active learning and weak supervision.
+
+## Implementing neural networks
+
+**Situation**
+
+Maggie is learning to implement neural networks and has discovered the importance of using non-linearities.
+
+She learned that if she doesn't add non-linearities to the model, the network won't solve the problem.
+
+Which of the following options will add non-linearities to Maggie's neural network?
+
+• Using convolution operations as part of the network.
+
+• Using Stochastic Gradient Descent to train the network.
+
+• Implementing the backpropagation process.
+
+• Using Rectifier Linear Unit (ReLU) as an activation function.
+
+**Explanation**
+
+For a neural network to learn complex patterns, we must ensure that the network can approximate any function, not only linear ones. This is why we call it "non-linearities."
+
+The way we do this is by using activation functions.
+
+An interesting fact: the Universal approximation theorem states that, when using non-linear activation functions, we can turn a two-layer neural network into a universal function approximator. This is an excellent illustration of how powerful neural networks are.
+
+Some of the most popular activation functions are sigmoid and ReLU.
+
+A convolution operation is a linear operation. You can check this answer in Stack Exchange for an excellent explanation.
+
+Finally, neither Stochastic Gradient Descent nor backpropagation has anything to do with the linearity of the network operations.
