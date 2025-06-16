@@ -713,3 +713,39 @@ Some of the most popular activation functions are sigmoid and ReLU.
 A convolution operation is a linear operation. You can check this answer in Stack Exchange for an excellent explanation.
 
 Finally, neither Stochastic Gradient Descent nor backpropagation has anything to do with the linearity of the network operations.
+
+## Sister dice
+
+**Situation**
+
+Alayah has a box containing a 6-sided and a 12-sided die.
+
+She asks her sister to randomly pick one out, roll it, and share the result. Her sister tells her that the result is 2.
+
+What is the probability that Alayah's sister picked the 6-sided die?
+
+• The probability is 1/2
+
+• The probability is 2/3
+
+• The probability is 3/4
+
+• The probability is 1/3
+
+**Explanation**
+
+Let's assume that A represents the event of rolling the die and getting a 2, B1 represents pulling out the 6-sided die, and B2 represents pulling out the 12-sided die.
+
+We can compute the probability that Alayah's sister picked the 6-sided die using the Bayes theorem:
+```
+P(B1|A) = (P(A|B1)*P(B1))/P(A)
+P(B1|A) = (1/12)/P(A)
+
+P(A) = P(A|B1)*P(B1)+P(A|B2)*P(B2)
+P(A) = 1/12 + 1/24​
+P(A) = 1/8
+
+P(B1|A) = (1/12)/(1/8)
+P(B1|A) = 2/3​
+```
+Thus, the answer is 2/3.
