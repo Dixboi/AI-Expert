@@ -749,3 +749,40 @@ P(B1|A) = (1/12)/(1/8)
 P(B1|A) = 2/3​
 ```
 Thus, the answer is 2/3.
+
+## Convolutional paper
+
+**Situation**
+
+Annabelle is writing a paper about convolutional layers.
+
+Her examples are small images of size 8x8. Annabelle wants to find different combinations of parameters for the convolutional layer that give her a similar-sized output.
+
+Assuming Annabelle inputs an 8x8 picture to a convolutional layer, which of the following parameters will give her an output size of 2x2?
+
+• Kernel size = 7, Padding = 0, Stride = 1
+
+• Kernel size = 5, Padding = 0, Stride = 2
+
+• Kernel size = 7, Padding = 2, Stride = 4
+
+• Kernel size = 5, Padding = 2, Stride = 4
+
+**Explanation**
+
+To compute the output size, we can use the following formula:
+
+`output = 1 + (input + 2 * padding - kernel) / stride`
+Running every choice through this formula will give you the output of every case is the same 2x2.
+
+Convolutions have many parameters that influence the output size. We can go through the properties of the convolutional layer one by one and complete one of the examples.
+
+First, we know the input size to be 8x8.
+
+Next, we know that the kernel size is 7. This means we will move a sliding window of size 7×7 over the entire image. Assuming a stride of 1, the output of this operation will be 2x2.
+
+Adding padding to the image is a way to avoid the reduction of the size. In the first example, we didn't add any padding.
+
+Finally, we have a stride of 1. This means the sliding window will move by one row and column every time. Since that's the stride we assumed at the beginning, the final output size of the convolutional layer will be 2×2.
+
+You can apply the same thinking to every example.
