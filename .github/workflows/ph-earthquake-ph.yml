@@ -2,7 +2,7 @@ name: Run Earthquake PH weekly
 
 on:
   schedule:
-    - cron: '45 13 * * 4'  # 13:45 UTC every Thursday
+    - cron: '0 0 * * 0'  # Every Sunday at 00:00 UTC
   workflow_dispatch:
 
 jobs:
@@ -24,4 +24,4 @@ jobs:
           pip install -r "Practical/Projects/PH Earthquakes/requirements.txt"
 
       - name: Run Earthquake PH scraper
-        run: python "Practical/Projects/PH Earthquakes/earthquake_ph.py"
+        run: python "Practical/Projects/PH Earthquakes/Earthquake_PH_Web_Scraping.py.py"
