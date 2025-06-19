@@ -2,7 +2,8 @@ name: Run Earthquake PH weekly
 
 on:
   schedule:
-    - cron: '0 0 * * 0'  # Every Sunday at 00:00 UTC
+    - cron: '0 0 1-7 * 0'   # 1st Sunday of the month at 00:00 UTC
+    - cron: '0 0 15-21 * 0' # 3rd Sunday of the month at 00:00 UTC
   workflow_dispatch:
 
 permissions:
