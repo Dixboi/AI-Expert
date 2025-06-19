@@ -5,6 +5,9 @@ on:
     - cron: '0 0 * * 0'  # Every Sunday at 00:00 UTC
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   run-script:
     runs-on: ubuntu-latest
@@ -25,3 +28,18 @@ jobs:
 
       - name: Run Earthquake PH scraper
         run: python "Practical/Projects/PH Earthquakes/Earthquake_PH_Web_Scraping.py"
+
+      - name: Extract output filename from metadata.json
+        id: meta
+        run: |
+          OUTPUT_FILE=$(jq -r '.output_file' "Practical/Projects/PH Earthquakes/metadata.json")
+          echo "output_file=$OUTPUT_FILE" >> $GITHUB_OUTPUT
+
+      - name: Commit and push updated CSV and metadata
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add "Practical/Projects/PH Earthquakes/metadata.json"
+          git add "Practical/Projects/PH Earthquakes/${{ steps.meta.outputs.output_file }}"
+          git commit -m "Update earthquake CSV and metadata.json automatically"
+          git push || echo "No changes to commit"
