@@ -8,7 +8,7 @@ The data can be used for the following:
 1. Analysis of the Philippines' most hitted regions
 2. Correlation with casualties alongside with other disasters
 
-**Latest Run/Update**: May 15, 2025
+**Latest Run/Update**: June 19, 2025
 
 ## Focus
 **Data Engineering**
