@@ -786,3 +786,35 @@ Adding padding to the image is a way to avoid the reduction of the size. In the 
 Finally, we have a stride of 1. This means the sliding window will move by one row and column every time. Since that's the stride we assumed at the beginning, the final output size of the convolutional layer will be 2×2.
 
 You can apply the same thinking to every example.
+
+## Significant impact
+
+**Situation**
+
+Trinity just started reading a book about machine learning and came across the concept of model coefficients.
+
+She learned that coefficients are parameters learned by a machine learning model during training.
+
+Trinity wants to understand how these coefficients can be used to determine the impact of a feature on a prediction. Specifically, she wants to know how to determine if a feature significantly impacts the prediction based on the coefficients.
+
+How can Trinity determine if a feature significantly impacts the prediction based on the coefficients?
+
+• A positive coefficient indicates that a feature significantly impacts the prediction.
+
+• A negative coefficient indicates that a feature significantly impacts the prediction.
+
+• The coefficient with a large magnitude indicates that a feature significantly impacts the prediction.
+
+• The coefficients do not indicate the relationship between the feature and target variable.
+
+**Explanation**
+
+The coefficients in the context of a model are the parameters learned by the model during training. They determine the relationship between the input features and the output predictions.
+
+Each feature in the model is assigned a coefficient, a numerical value representing that feature's importance in the prediction.
+
+If a feature has a large magnitude coefficient, it has a strong relationship with the target variable and, therefore, significantly impacts the prediction. On the other hand, if a feature has a small magnitude coefficient, it means that it has a weak relationship with the target variable and, therefore, has a less significant impact on the prediction.
+
+The sign of the coefficient only indicates the direction of the relationship between the feature and target variable but does not indicate the strength of the relationship.
+
+In summary, the magnitude of the coefficient is the key factor that indicates the significance of a feature in the prediction.
