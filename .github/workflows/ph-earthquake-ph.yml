@@ -21,7 +21,7 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r "Practical/Projects/PH Earthquakes/requirements.txt"
+          pip install -r "AI-Expert/Practical/Projects/PH Earthquakes/requirements.txt"
 
       - name: Run Earthquake PH scraper
-        run: python "Practical/Projects/PH Earthquakes/Earthquake_PH_Web_Scraping.py.py"
+        run: python "AI-Expert/Practical/Projects/PH Earthquakes/Earthquake_PH_Web_Scraping.py.py"
