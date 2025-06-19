@@ -153,7 +153,8 @@ new_version = current_version + 1
 time_scraped = datetime.now().isoformat()
 
 file_name = f"earthquake_ph_list_v{new_version}.csv"
-df_history.to_csv(file_name, index=False)
+file_path = os.path.join(BASE_DIR, file_name)
+df_history.to_csv(file_path, index=False)
 
 metadata = {
     "data_version": new_version,
