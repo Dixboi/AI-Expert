@@ -8,6 +8,7 @@ pd.set_option("display.max_rows", None, "display.max_columns", None)
 import re
 import json
 from datetime import datetime
+import os
 
 url = "https://earthquake.phivolcs.dost.gov.ph/"
 page = requests.get(url, verify=False)
@@ -141,7 +142,10 @@ for year in years:
         df_portion = pd.DataFrame(dict_portion)
         df_history = pd.concat([df_history, df_portion])
 
-with open("metadata.json", "r") as f:
+base_dir = os.path.dirname(__file__)
+metadata_path = os.path.join(base_dir, "metadata.json")
+
+with open(metadata_path, "r") as f:
     metadata = json.load(f)
 
 current_version = metadata["data_version"]
@@ -157,5 +161,5 @@ metadata = {
     "output_file": file_name
 }
 
-with open("metadata.json", "w") as f:
+with open(metadata_path, "w") as f:
     json.dump(metadata, f, indent=4)
