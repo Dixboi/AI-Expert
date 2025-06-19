@@ -24,4 +24,4 @@ jobs:
           pip install -r "Practical/Projects/PH Earthquakes/requirements.txt"
 
       - name: Run Earthquake PH scraper
-        run: python "AI-Expert/Practical/Projects/PH Earthquakes/Earthquake_PH_Web_Scraping.py.py"
+        run: python "Practical/Projects/PH Earthquakes/Earthquake_PH_Web_Scraping.py"
