@@ -4,26 +4,43 @@ Here lies all of my learnings related to becoming an official Artificial Intelli
 # LEARNING DIVISIONS
 For all of my learnings, I want to separate them into divisions.
 
-## 🤖 Automation
+## ⚙️ Automation
+
+### 📜 Scripting
 Helps to make sure to lessen repititive tasks and provide an easier workflow
 
-## 📊 Data Analysis
-Without understanding data, it's hard to build AI models and run them
-
-## 🛠️ Data Engineering
-Ensures that AI systems or softwares will get the data needed
+### 🤖 Robotic Process Automation (RPA)
+Uses tools to provide automation
 
 ## 🔬 Data Science
-Helps in experimentation and understading AI models to its core
+
+### 📊 Data Analysis
+Without understanding data, it's hard to use them
+
+### 🛠️ Data Engineering
+Ensures that data will be properly transformed and stored
+
+### 🪪 Data Governance
+Data should have standards and policies for usage
 
 ## 📟 Machine Learning
-Applying AI models in the right situation
 
-## ⚖️ Data and AI Ethics
-Ensures to be literate in the field of Data and AI, and to know how to manage them properly.
+### 👄 Natural Language Processing
+Focuses on enabling machines to understand human language
+
+### 👁️‍🗨️ Computer Vision
+Deals with enabling computers to process images or videos
+
+### ⌚️ Time Series
+Involves analyzing data points based on time in order to detect trends or forecast values
 
 ## 🌏 Miscellaneous
-Contains other learnings that can be related to AI such as cloud, reasearch papers, and DevOps
+
+### ⚖️ Ethics
+Ensures to be literate in the field of Data and AI, and to know how to manage them properly.
+
+### 🌨️ Cloud
+Makes data and AI models available in public or running 24/7
 
 # CONTENTS
 This repo is divided into three parts:
