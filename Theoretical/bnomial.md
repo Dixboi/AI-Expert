@@ -818,3 +818,33 @@ If a feature has a large magnitude coefficient, it has a strong relationship wit
 The sign of the coefficient only indicates the direction of the relationship between the feature and target variable but does not indicate the strength of the relationship.
 
 In summary, the magnitude of the coefficient is the key factor that indicates the significance of a feature in the prediction.
+
+## Climate researcher
+
+**Situation**
+
+Joanna is a climate change researcher.
+
+She wants to analyze satellite images of the Amazon rainforest to spot deforestation hotspots to help policymakers act preventively. Joanna built a shallow neural network to predict deforestation patterns, but it's not as accurate as she'd like.
+
+A deep neural network could be better.
+
+What should Joanna do to transform her shallow neural network into a deep one?
+
+• Joanna should change the activation function in the existing layers.
+
+• Joanna should change the type of input data she's using.
+
+• Joanna should add more layers to the network.
+
+• Joanna should use a different optimization algorithm.
+
+**Explanation**
+
+Joanna should add more layers to the network to transform a shallow neural network into a deep one. A deep neural network is an artificial neural network with multiple layers between the input and output layers. The more layers we add, the "deeper" the network becomes.
+
+Changing the activation function in the existing layers might affect the model's performance, but it won't make the network deeper. Activation functions play a role in introducing non-linearities, but they don't affect the depth of the network.
+
+Changing the type of input data would not make the network deeper. Instead, it would likely require a model modification to accommodate the new data type, which doesn't address the depth issue.
+
+A different optimization algorithm could improve the training process and performance but won't deepen the neural network. Optimization algorithms help minimize the loss function but don't increase the network's depth.
