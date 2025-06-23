@@ -9,9 +9,10 @@
 | Tools used | Python, pandas, numpy, Google Sheets, MS Excel, Looker, MS Power Automate |
 | Important links | [Extension - History Export](https://chromewebstore.google.com/detail/history-export/lpmoaclacdaofhlijejogfldmgkdlglj), [Looker Public Dashboard](https://lookerstudio.google.com/reporting/17bf277b-e2bd-40e6-8cc8-6c71a3b46bf1), [Dashboard Documentation](https://docs.google.com/document/d/1L3kXycmpa1jLr_gsKUGYXh29kw5AQnP__lor9ll1a6w/edit?usp=sharing)|
 | External libraries used | pandas, numpy, logging, line_profiler, gspread, oauth2client, pycodestyle |
+| Latest manual update | December 2023 |
 ## File Structure
 ```
-Browser History-
+Personal Browser History-
 ├── data/
 |   ├── preprocessed/
 |   |   ├── browser_history_local_data.csv
