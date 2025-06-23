@@ -2,7 +2,25 @@
 Here lies all of my learnings related to becoming an official Artificial Intelligence Expert.
 
 # LEARNING DIVISIONS
-For all of my learnings, I want to separate them into divisions.
+
+```mermaid
+mindmap
+  root((AI Expert))
+    ⚙️ Automation
+      {{📜 Scripting}}
+      {{🤖 Robotic Process Automation - RPA}}
+    🔬 Data Science
+      {{📊 Data Analysis}}
+      {{🛠️ Data Engineering}}
+      {{🪪 Data Governance}}
+    📟 Machine Learning
+      {{👄 Natural Language Processing - NLP}}
+      {{👁️‍🗨️ Computer Vision}}
+      {{⌚️ Time Series}}
+    🌏 Miscellaneous
+      {{⚖️ Ethics}}
+      {{🌨️ Cloud}}
+```
 
 ## ⚙️ Automation
 
