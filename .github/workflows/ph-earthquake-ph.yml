@@ -41,5 +41,5 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git add "Practical/Projects/PH Earthquakes/metadata.json"
           git add "Practical/Projects/PH Earthquakes/${{ steps.meta.outputs.output_file }}"
-          git commit -m "Update earthquake CSV and metadata.json automatically"
+          git commit -m "Update earthquake CSV and metadata.json using script"
           git push || echo "No changes to commit"
