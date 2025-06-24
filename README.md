@@ -82,6 +82,9 @@ Preparation, collection, and notes for all of the certifications that I'm trying
 #### Blue Prism
 1. [Blue Prism Foundation Training](https://github.com/Dixboi/AI-Expert/blob/main/Certification/Blue%20Prism/Blue%20Prism%20-%20Foundation%20Training.pdf)
 
+#### Make
+1. [Make Foundation Training and Assessment](https://github.com/Dixboi/AI-Expert/tree/main/Certification/Make), [Credly Link](https://www.credly.com/badges/24121d80-b777-44ab-8fdc-edcd915fdb50/public_url)
+
 ## 💪 Practical
 Application of all my learnings like big or small projects
 
