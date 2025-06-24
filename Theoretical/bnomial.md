@@ -867,8 +867,6 @@ Which of the following is a valid conclusion about Celeste's model?
 
 • We don't know exactly whether Celeste's model is better or worse.
 
-[You missed this one]
-
 **Explanation**
 
 When Celeste added 1,000 new records and split them between the training and test sets, the distribution of the test set changed. Since the new test set has a different distribution, we cannot directly compare the model's accuracy before and after adding the new records.
@@ -888,3 +886,29 @@ Here is a hypothetical scenario of two models illustrating how Model 2 could imp
 In this hypothetical example, Model 2 is better on the original 10,000 records (91% versus 90%) and the 500 new records (28% versus 10%.) But its accuracy is worse with the 10,500 test set (88% versus 90%.)
 
 This is called the Simpson's paradox. When comparing two experiments, we need to make sure that we evaluate the same data or at least data having the same underlying distribution. If we change the distribution, we can't compare the results and may make the wrong conclusion.
+
+## Explring birds
+
+**Situation**
+
+Cali is an avid birdwatcher and has decided to use her passion for birds to explore the capabilities of deep neural networks.
+
+She gathers a diverse dataset of bird images covering different species, habitats, and behaviors. With this dataset, Cali begins experimenting with deep neural networks to see how well they can classify the images and recognize the distinct characteristics of each species.
+
+Which of the following statements reasonably simplifies how the network operates?
+
+• The earlier layers of a neural network compute simpler features than deeper layers.
+
+• The deeper layers of a neural network compute more complex features than earlier layers.
+
+• The earlier layers of a neural network compute more complex features than deeper layers.
+
+• The deeper layers of a neural network compute simpler features than earlier layers.
+
+**Explanation**
+
+Think of a bird picture. You'll see the eyes, feathers, beak, and other characteristics. Notice how groups of pixels form edges, shapes, and the rest of the bird's features.
+
+A reasonable explanation for how a neural network works are to assume that earlier layers focus on detecting more basic features, like edges and shapes of the image. Later layers could use these earlier pieces to form more recognizable shapes, like the eyes and beak of the bird.
+
+While the network deals with pixels early on, the deeper we go into it, the more it will work with complete patterns until it reaches the output layer.
