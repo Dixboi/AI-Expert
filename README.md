@@ -77,6 +77,9 @@ Preparation, collection, and notes for all of the certifications that I'm trying
 3. [Data Literacy](https://github.com/Dixboi/AI-Expert/blob/main/Certification/DataCamp/Career/DataCamp%20-%20Data%20Literacy.pdf)
 4. [Data Scientist Associate](https://github.com/Dixboi/AI-Expert/blob/main/Certification/DataCamp/Career/DataCamp%20-%20Data%20Scientist%20Associate.pdf)
 
+#### HackerRank
+1. [SQL Basics](https://github.com/Dixboi/AI-Expert/tree/main/Certification/Hackerrank), [HackerRank Certificate Link](https://www.hackerrank.com/certificates/683342423f1b)
+
 ### Training
 
 #### Blue Prism
